@@ -1,0 +1,8 @@
+url: "http://localhost:8000/submit"
+lesson_id: 0
+key: "abcd"
+doc_url: "https://www.baidu.com"
+upload_files:
+  - "*.py"
+  - "submit.md"
+  - hello

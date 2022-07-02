@@ -1,0 +1,6 @@
+.idea/
+upload.zip
+.vscode/
+__pycache__/
+uploads/
+server.yml

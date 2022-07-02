@@ -48,7 +48,19 @@ git add .
 git commit -m "<一些描述信息>"
 ```
 
-然后运行将自己的key填入 `submit.yml` 的 `key` 键中。最后运行以下命令提交。
+然后将自己的key填入 `submit.yml` 的 `key` 键中。这被我们用来标识你的身份。
+
+然后将你想要提交的文件添加到 `submit.yml` 的 `upload_files` 键下。**请勿删除原有的项目**。例如如果想要添加 `install.sh` 则修改成这个样子
+
+```yaml
+upload_files:
+  - "submit.md"
+  - "install.sh"
+  # - "*.sh" 使用通配符匹配所有以 `.sh` 结尾的文件
+  # - "folder" 或者上传一个文件夹
+```
+
+最后运行以下命令提交。
 
 ```shell
 python submit.py

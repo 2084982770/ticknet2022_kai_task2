@@ -3,6 +3,5 @@ lesson_id: 1
 key: "key填入这里"
 doc_url: "https://www.baidu.com"
 upload_files:
-  - "*.py"
   - "submit.md"
-  - hello
+  - "*.py"

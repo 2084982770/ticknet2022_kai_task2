@@ -114,7 +114,7 @@ git add .
 git commit -m "<一些描述信息>"
 ```
 
-然后将你想要提交的文件添加到 `submit.yml` 的 `upload_files` 键下。**请勿删除原有的项目**。例如如果想要添加 `install.sh` 则修改成这个样子
+然后将你想要提交的文件添加到 `submit.yml` 的 `upload_files` 键下。**请勿删除原有的项目**。例如如果想要添加 `install.sh` 则添加成这个样子
 
 ```yaml
 upload_files:

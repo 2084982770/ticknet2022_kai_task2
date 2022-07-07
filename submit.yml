@@ -4,4 +4,6 @@ key: "key填入这里"
 doc_url: "https://www.baidu.com"
 upload_files:
   - "submit.md"
-  - "*.py"
+  - "imgs"  # markdown images
+  - "submit.asset"  # images of submit.md
+  - "task*"  # all the `task` folder

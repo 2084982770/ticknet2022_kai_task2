@@ -7,4 +7,4 @@
 origin	https://github.com/2084982770/ticknet2022_kai_task2.git (push)<br>
 然后输入git remote rm origin解除关联)<br>
 最后git push origin master上传。<br>
-然后一不小心忘了git add .结果把电脑文件全上传上去了。
+然后一不小心忘了git add .结果把电脑文件全上传上去了,我以为我搞好了，调了好久才发现没有cd ticknet2022目录，导致git了账户根目录。
